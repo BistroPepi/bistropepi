@@ -1,0 +1,12 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" fill="#FFF3F3"/>
+  <rect x="30" y="30" width="1140" height="640" rx="30" fill="#FFE0E2" stroke="#EBA3A8" stroke-width="4"/>
+  <circle cx="600" cy="350" r="210" fill="#FFFFFF" stroke="#D91F26" stroke-width="14"/>
+  <circle cx="530" cy="320" r="58" fill="#D91F26"/>
+  <circle cx="660" cy="315" r="58" fill="#B3131A"/>
+  <circle cx="590" cy="405" r="58" fill="#E83E45"/>
+  <rect x="470" y="220" width="260" height="22" rx="11" fill="#FFB54A"/>
+  <rect x="470" y="455" width="260" height="22" rx="11" fill="#FFB54A"/>
+  <text x="70" y="95" fill="#B3131A" font-size="46" font-family="Inter, Arial, sans-serif" font-weight="800">Bistro Pepi</text>
+  <text x="70" y="145" fill="#7A3034" font-size="28" font-family="Inter, Arial, sans-serif">Sveže, hitro, okusno</text>
+</svg>

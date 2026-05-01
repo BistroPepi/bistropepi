@@ -1,0 +1,13 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#FFF4F4"/>
+  <rect x="25" y="25" width="750" height="450" rx="24" fill="#FFE0E2" stroke="#E5A6AA"/>
+  <ellipse cx="400" cy="320" rx="220" ry="56" fill="#C57A46"/>
+  <rect x="190" y="255" width="420" height="70" rx="35" fill="#6B3A2A"/>
+  <rect x="200" y="230" width="400" height="28" rx="14" fill="#F1C94C"/>
+  <rect x="215" y="205" width="370" height="26" rx="13" fill="#71B75D"/>
+  <ellipse cx="400" cy="190" rx="220" ry="78" fill="#D8934C"/>
+  <circle cx="330" cy="165" r="5" fill="#FDE3B9"/>
+  <circle cx="390" cy="150" r="5" fill="#FDE3B9"/>
+  <circle cx="450" cy="170" r="5" fill="#FDE3B9"/>
+  <text x="50" y="75" fill="#B3131A" font-size="34" font-family="Inter, Arial, sans-serif" font-weight="700">Pepi burger</text>
+</svg>

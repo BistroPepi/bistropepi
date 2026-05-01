@@ -1,0 +1,11 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#FFF6F6"/>
+  <rect x="25" y="25" width="750" height="450" rx="24" fill="#FFE6E7" stroke="#E5A6AA"/>
+  <ellipse cx="400" cy="270" rx="250" ry="145" fill="#FFFFFF" stroke="#D91F26" stroke-width="10"/>
+  <rect x="250" y="215" width="300" height="30" rx="15" fill="#B36A3E"/>
+  <rect x="235" y="255" width="330" height="30" rx="15" fill="#A15A33"/>
+  <rect x="250" y="295" width="300" height="30" rx="15" fill="#8F4A28"/>
+  <circle cx="585" cy="210" r="22" fill="#D91F26"/>
+  <circle cx="615" cy="240" r="16" fill="#7DC76C"/>
+  <text x="48" y="72" fill="#B3131A" font-size="34" font-family="Inter, Arial, sans-serif" font-weight="700">Špikani čevapčiči</text>
+</svg>

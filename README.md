@@ -1,16 +1,37 @@
-## Hi there 👋
+# Bistro Pepi Redesign (MVP)
 
-<!--
-**BistroPepi/bistropepi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Sodobna statična predstavitvena stran pripravljena za objavo na GitHub Pages.
 
-Here are some ideas to get you started:
+## Vsebina
+- Hero sekcija z jasnimi CTA gumbi
+- Kartice po dnevih (Ponedeljek–Petek)
+- Best-seller sekcija
+- Kontakt, lokacija in delovni čas
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Lokalni zagon
+Ker gre za statično stran, odpri `index.html` v brskalniku.
+
+## Objava na GitHub
+1. Ustvari nov repo na GitHub (npr. `bistro-pepi-redesign`).
+2. V terminalu v tej mapi zaženi:
+
+```bash
+git init
+git add .
+git commit -m "Initial Bistro Pepi redesign MVP"
+git branch -M main
+git remote add origin https://github.com/<uporabnik>/bistro-pepi-redesign.git
+git push -u origin main
+```
+
+3. V GitHub repo pojdi na **Settings → Pages**.
+4. Source: **Deploy from a branch**.
+5. Branch: **main** in folder **/(root)**.
+6. Shrani in počakaj 1-2 minuti.
+
+Tvoja stran bo dosegljiva na:
+`https://<uporabnik>.github.io/bistro-pepi-redesign/`
+
+## Opomba
+Besedila in cene v karticah so demo vsebina za osnutek. Zamenjaj s finalnim menijem.
+Fotografije so trenutno vezane na obstoječi Google Sites vir; za produkcijo jih zamenjaj z lastnimi datotekami v mapi `assets/`.

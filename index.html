@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="sl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bistro Pepi | Redesign</title>
+    <meta
+      name="description"
+      content="Bistro Pepi — sodobna predstavitvena stran z dnevno ponudbo malic in hitrim naročilom."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#top">
+          <img src="assets/PepiLogo.png" alt="Bistro Pepi logotip" class="logo-image" />
+          <span class="logo-text">Bistro Pepi domači žar</span>
+        </a>
+        <nav class="nav">
+          <a href="#malice">Malice</a>
+          <a href="#miza">Na mizo</a>
+          <a href="cenik.html">Cenik</a>
+          <a href="kontakt.html">Kontakt</a>
+        </nav>
+        <div class="lang-switch" aria-label="Izbira jezika">
+          <a class="active" href="index.html">SL</a>
+          <a href="index-en.html">EN</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Bistro Pepi domači žar · BTC Pokrita tržnica · Ljubljana</p>
+            <h1>Najbolše kar ponuja meso!</h1>
+            <p class="lead">
+              Nismo samo bistro — <br>smo MESNA INSTITUCIJA.<br>
+              Lastna mesnica, lastna priprava, brez kompromisov.
+            </p>
+            <div class="hero-points">
+              <span>Sveže pripravljeno</span>
+              <span>Hitra postrežba</span>
+              <span>Poštene cene</span>
+            </div>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="tel:+38670267683">Pokliči +386 70 267 683</a>
+              <a class="btn btn-secondary" href="https://wolt.com/sl/svn/ljubljana/restaurant/pepi-bistro-in-delikatesa" target="_blank" rel="noopener noreferrer">Naroči na Wolt</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <img src="assets/pepi zunaj.jpg" alt="Bistro Pepi zunaj" class="hero-image hero-logo" />
+            <h2>Hitre informacije</h2>
+            <ul>
+              <li><strong>P.E.:</strong> Bistro Pepi</li>
+              <li><strong>Lokacija:</strong> Italijanska ulica 7, Ljubljana se BTC Pokrita tržnica</li>
+              <li><strong>Delovni čas:</strong> Pon–Pet 9:30–17:00, Sob 9:00–15:00</li>
+              <li><strong>Nedelja:</strong> Zaprto</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="karo-band" aria-hidden="true"></div>
+
+      <section id="miza" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Na mizo</h2>
+            <p>Pepi priporoča jedi, ki jih postrežemo vroče in sveže z žara.</p>
+          </div>
+
+          <div class="table-stage" data-animate="table-stage">
+            <div class="table-top" aria-hidden="true"></div>
+
+            <article class="dish-tray from-left delay-1">
+              <img
+                src="assets/muckalica.jpg"
+                alt="Polnjena pleskavica"
+                class="dish-photo dish-photo-a"
+              />
+              <h3>Polnjena pleskavica</h3>
+              <p>Polnjena pleskavica z govejim mesom in sirom · alergeni: 3,7.</p>
+            </article>
+
+            <article class="dish-tray from-bottom delay-2">
+              <img
+                src="assets/gurmanska.jpg"
+                alt="Gurmanska pljeskavica"
+                class="dish-photo dish-photo-b"
+              />
+              <h3>Gurmanska pljeskavica</h3>
+              <p>Prekajeno goveje meso, sir, sveža čebula · alergeni: 1,3,7.</p>
+            </article>
+
+            <article class="dish-tray from-right delay-3">
+              <img
+                src="assets/piscancji paketek.jpg"
+                alt="Piščančiji paketek"
+                class="dish-photo dish-photo-c"
+              />
+              <h3>Piščančiji paketek</h3>
+              <p>Piščančiji paketek polnjen s chedar sirom, ovit v goveji pršut, mariniran pomfri · alergeni: 1,3,7.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="malice" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Malice po dnevih</h2>
+            <p>Vsak dan nov izbor jedi, pripravljen za hitro kosilo.</p>
+          </div>
+          <div class="cards-grid">
+            <article class="menu-card">
+              <div class="card-top"><h3>Ponedeljek</h3><span class="badge">Top izbira</span></div>
+              <ul>
+                <li>Makaronflajš (goveje meso)</li>
+                <li>Sveže riban parmezan</li>
+                <li>Solata</li>
+              </ul>
+              <p class="price">9,90 €</p>
+            </article>
+            <article class="menu-card">
+              <div class="card-top"><h3>Torek</h3><span class="badge">Novo</span></div>
+              <ul>
+                <li>Tris krožnik Pepi</li>
+                <li>Ocvrti fingersi, pleskavica z žara</li>
+                <li>Šobska solata</li>
+              </ul>
+              <p class="price">9,90 €</p>
+            </article>
+            <article class="menu-card">
+              <div class="card-top"><h3>Sreda</h3><span class="badge">Best seller</span></div>
+              <ul>
+                <li>Telečja pečenka v omaki</li>
+                <li>Pražen krompir</li>
+                <li>Solata</li>
+              </ul>
+              <p class="price">11,90 €</p>
+            </article>
+            <article class="menu-card">
+              <div class="card-top"><h3>Četrtek</h3><span class="badge">Priporočilo</span></div>
+              <ul>
+                <li>Mučkalica (goveje meso)</li>
+                <li>V testu</li>
+                <li>Solata</li>
+              </ul>
+              <p class="price">9,90 €</p>
+            </article>
+            <article class="menu-card">
+              <div class="card-top"><h3>Petek</h3><span class="badge">Ribji dan</span></div>
+              <ul>
+                <li>Rolana goveja pečenka v omaki</li>
+                <li>Kruhova rezina</li>
+                <li>Solata</li>
+              </ul>
+              <p class="price">9,90 €</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="info" class="section">
+        <div class="container info-grid">
+          <div>
+            <h2>Sledite nam</h2>
+            <p>Sledite nam na družbenih omrežjih</p>
+            <p><a href="https://www.facebook.com/bistropepi/" target="_blank" rel="noopener noreferrer">Facebook</a> · <a href="https://www.instagram.com/bistro_pepi/" target="_blank" rel="noopener noreferrer">Instagram</a> · <a href="https://www.tiktok.com/@bistro_pepi" target="_blank" rel="noopener noreferrer">TikTok</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container info-grid">
+          <div>
+            <h2>O nas</h2>
+            <p>UM-HA d.o.o.<br />Pokopališka ulica 20, 1000 Ljubljana<br /><br />P.E.: Bistro Pepi<br />Italijanska ulica 7, 1000 Ljubljana<br />BTC Pokrita tržnica</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 Bistro Pepi — Redesign koncept.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
