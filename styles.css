@@ -110,6 +110,32 @@ body {
   background: linear-gradient(90deg, var(--brand), var(--brand-strong));
 }
 
+.nav-toggle {
+  display: none;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 999px;
+  transition: transform 0.25s ease, opacity 0.2s ease;
+}
+
+.nav-toggle span + span {
+  margin-top: 6px;
+}
+
 .btn {
   display: inline-block;
   padding: 0.78rem 1.05rem;
@@ -641,7 +667,7 @@ a {
     padding: 1rem 1.15rem 1.2rem;
     border-top: 1px solid var(--line);
     box-shadow: 0 20px 40px rgb(0 0 0 / 20%);
-    z-index: 40;
+    z-index: 60;
   }
 
   .nav a {
