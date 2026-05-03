@@ -116,8 +116,8 @@ body {
   background: transparent;
   color: var(--text);
   cursor: pointer;
-  width: 44px;
-  height: 44px;
+  width: 50px;
+  height: 50px;
   padding: 0;
   align-items: center;
   justify-content: center;
@@ -125,15 +125,15 @@ body {
 
 .nav-toggle span {
   display: block;
-  width: 24px;
-  height: 2px;
+  width: 28px;
+  height: 3px;
   background: var(--text);
   border-radius: 999px;
   transition: transform 0.25s ease, opacity 0.2s ease;
 }
 
 .nav-toggle span + span {
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 .btn {
